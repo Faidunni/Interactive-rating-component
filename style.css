@@ -80,6 +80,7 @@ p {
   font-size: 16px;
   text-align: center;
   background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 
 .modal {
