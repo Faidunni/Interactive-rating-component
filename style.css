@@ -17,6 +17,7 @@ body {
   color: white;
   margin: 40px auto;
   border-radius: 20px;
+  display: block;
 }
 
 .img {
@@ -79,4 +80,40 @@ p {
   font-size: 16px;
   text-align: center;
   background-color: hsl(25, 97%, 53%);
+}
+
+.modal {
+  background-color: hsl(213, 19%, 18%);
+  width: 420px;
+  padding: 30px;
+  color: white;
+  margin: 40px auto;
+  border-radius: 20px;
+  display: none;
+}
+
+.show-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-img {
+  width: 50%;
+  margin: auto;
+}
+
+.thanks-text {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(212, 21%, 29%);
+  text-align: center;
+  margin: 2rem 0;
+  text-align: center;
+  border-radius: 50px;
+  padding: 5px 20px;
+}
+
+.thanks-text p {
+  text-align: center;
+  align-items: center;
 }

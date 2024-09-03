@@ -19,9 +19,11 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        color: white;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
+        text-decoration: none;
       }
     </style>
   </head>
@@ -50,11 +52,17 @@
 
       <!-- Thank you state end -->
       <section class="modal">
-        <img src="./images/illustration-thank-you.svg" alt="thank-you" />
-        <p>You selected out of 5</p>
+        <img
+          src="./images/illustration-thank-you.svg"
+          alt="thank-you"
+          class="modal-img"
+        />
+
+        <p class="thanks-text"></p>
+
         <h1>Thank you!</h1>
         <p>
-          We appreciate you taking the time to give a rating. If you ever need
+          We appreciate you taking the time to give a rating.If you ever need
           more support, don’t hesitate to get in touch!
         </p>
       </section>
@@ -64,7 +72,10 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Faizat Hazeez</a>.
     </div>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
   </body>
 </html>
